@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88EEDD630A6E75447187761A /* Pods_Gift_Card.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0BF6F478C57B7B2D30C328 /* Pods_Gift_Card.framework */; };
+		F12EA2CC27AFA3FF00F29A30 /* GiftCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12EA2CB27AFA3FF00F29A30 /* GiftCardTests.swift */; };
+		F18488FA27AEFA2700CE555B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18488F927AEFA2700CE555B /* Constants.swift */; };
+		F18488FD27AEFCFC00CE555B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18488FC27AEFCFC00CE555B /* BaseVC.swift */; };
+		F1E22B0C27ABD2B100869F56 /* GiftCardDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B0B27ABD2B100869F56 /* GiftCardDetailsVC.swift */; };
+		F1E22B0E27ABD2C900869F56 /* GiftCardDetailsSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B0D27ABD2C900869F56 /* GiftCardDetailsSceneConfigurator.swift */; };
+		F1E22B1027ABD30F00869F56 /* GiftCardDetailsSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B0F27ABD30F00869F56 /* GiftCardDetailsSceneInteractor.swift */; };
+		F1E22B1427ABD32E00869F56 /* GiftCardDetailsSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B1327ABD32E00869F56 /* GiftCardDetailsSceneRouter.swift */; };
+		F1E22B1627ABD34300869F56 /* GiftCardDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B1527ABD34300869F56 /* GiftCardDetailProtocols.swift */; };
+		F1E22B2127AC093E00869F56 /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B1D27AC093E00869F56 /* ApiProtocol.swift */; };
+		F1E22B2227AC093E00869F56 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B1E27AC093E00869F56 /* ApiService.swift */; };
+		F1E22B2327AC093E00869F56 /* ApiRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B1F27AC093E00869F56 /* ApiRepo.swift */; };
+		F1E22B2427AC093E00869F56 /* ApiRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B2027AC093E00869F56 /* ApiRequestType.swift */; };
+		F1E22B2727AC0BE600869F56 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B2627AC0BE600869F56 /* UIImageView+Extensions.swift */; };
+		F1E22B2927AC0C3A00869F56 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B2827AC0C3A00869F56 /* UIViewController+Extensions.swift */; };
+		F1E22B2F27AC5CA200869F56 /* GiftCardPurchasedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B2E27AC5CA200869F56 /* GiftCardPurchasedVC.swift */; };
+		F1E22B3127AC5CBC00869F56 /* GiftCardPurchasedSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B3027AC5CBC00869F56 /* GiftCardPurchasedSceneConfigurator.swift */; };
+		F1E22B3327AC5CD000869F56 /* GiftCardPurchasedSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B3227AC5CD000869F56 /* GiftCardPurchasedSceneInteractor.swift */; };
+		F1E22B3527AC5CEB00869F56 /* GiftCardPurchasedProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B3427AC5CEB00869F56 /* GiftCardPurchasedProtocols.swift */; };
+		F1E22B3727AC5E7E00869F56 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B3627AC5E7E00869F56 /* Int+Extensions.swift */; };
+		F1E22B3927AC62F900869F56 /* GiftCardPurchasedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B3827AC62F900869F56 /* GiftCardPurchasedCell.swift */; };
+		F1E22B3C27AC6C4E00869F56 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B3B27AC6C4E00869F56 /* CartManager.swift */; };
+		F1E22B3F27AC6F5800869F56 /* GiftCardCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B3E27AC6F5800869F56 /* GiftCardCartVC.swift */; };
+		F1E22B4127AC6FC200869F56 /* GiftCardCartSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B4027AC6FC200869F56 /* GiftCardCartSceneConfigurator.swift */; };
+		F1E22B4327AC708900869F56 /* GiftCardCartSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B4227AC708900869F56 /* GiftCardCartSceneRouter.swift */; };
+		F1E22B4527AC709A00869F56 /* GiftCardCartProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B4427AC709A00869F56 /* GiftCardCartProtocols.swift */; };
+		F1E22B4727AC729600869F56 /* GiftCardCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E22B4627AC729600869F56 /* GiftCardCartCell.swift */; };
+		F1F92B7327AB7DDF000E6329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B7227AB7DDF000E6329 /* AppDelegate.swift */; };
+		F1F92B7527AB7DDF000E6329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B7427AB7DDF000E6329 /* SceneDelegate.swift */; };
+		F1F92B7C27AB7DE1000E6329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F92B7B27AB7DE1000E6329 /* Assets.xcassets */; };
+		F1F92B7F27AB7DE1000E6329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F92B7D27AB7DE1000E6329 /* LaunchScreen.storyboard */; };
+		F1F92B8C27AB8029000E6329 /* GiftCardListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B8B27AB8029000E6329 /* GiftCardListVC.swift */; };
+		F1F92B8E27AB8050000E6329 /* GiftCardSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B8D27AB8050000E6329 /* GiftCardSceneConfigurator.swift */; };
+		F1F92B9027AB807E000E6329 /* GiftCardScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B8F27AB807E000E6329 /* GiftCardScenePresenter.swift */; };
+		F1F92B9227AB808F000E6329 /* GiftCardSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B9127AB808F000E6329 /* GiftCardSceneInteractor.swift */; };
+		F1F92B9427AB80A0000E6329 /* GiftCardSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B9327AB80A0000E6329 /* GiftCardSceneRouter.swift */; };
+		F1F92B9927AB80CF000E6329 /* GiftCardListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B9827AB80CF000E6329 /* GiftCardListProtocols.swift */; };
+		F1F92B9E27AB88F8000E6329 /* GiftCardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F92B9D27AB88F8000E6329 /* GiftCardListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F12EA2CD27AFA3FF00F29A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F92B6727AB7DDF000E6329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F92B6E27AB7DDF000E6329;
+			remoteInfo = "Gift Card";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A0BF6F478C57B7B2D30C328 /* Pods_Gift_Card.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gift_Card.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A3443B158FDB72AD686118 /* Pods-Gift Card.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gift Card.release.xcconfig"; path = "Target Support Files/Pods-Gift Card/Pods-Gift Card.release.xcconfig"; sourceTree = "<group>"; };
+		E9053101EF851ECF44AB39DF /* Pods-Gift Card.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gift Card.debug.xcconfig"; path = "Target Support Files/Pods-Gift Card/Pods-Gift Card.debug.xcconfig"; sourceTree = "<group>"; };
+		F12EA2C927AFA3FF00F29A30 /* Gift CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gift CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12EA2CB27AFA3FF00F29A30 /* GiftCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardTests.swift; sourceTree = "<group>"; };
+		F18488F927AEFA2700CE555B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F18488FC27AEFCFC00CE555B /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		F1E22B0B27ABD2B100869F56 /* GiftCardDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardDetailsVC.swift; sourceTree = "<group>"; };
+		F1E22B0D27ABD2C900869F56 /* GiftCardDetailsSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardDetailsSceneConfigurator.swift; sourceTree = "<group>"; };
+		F1E22B0F27ABD30F00869F56 /* GiftCardDetailsSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardDetailsSceneInteractor.swift; sourceTree = "<group>"; };
+		F1E22B1327ABD32E00869F56 /* GiftCardDetailsSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardDetailsSceneRouter.swift; sourceTree = "<group>"; };
+		F1E22B1527ABD34300869F56 /* GiftCardDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardDetailProtocols.swift; sourceTree = "<group>"; };
+		F1E22B1D27AC093E00869F56 /* ApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
+		F1E22B1E27AC093E00869F56 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		F1E22B1F27AC093E00869F56 /* ApiRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRepo.swift; sourceTree = "<group>"; };
+		F1E22B2027AC093E00869F56 /* ApiRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequestType.swift; sourceTree = "<group>"; };
+		F1E22B2627AC0BE600869F56 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		F1E22B2827AC0C3A00869F56 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F1E22B2E27AC5CA200869F56 /* GiftCardPurchasedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardPurchasedVC.swift; sourceTree = "<group>"; };
+		F1E22B3027AC5CBC00869F56 /* GiftCardPurchasedSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardPurchasedSceneConfigurator.swift; sourceTree = "<group>"; };
+		F1E22B3227AC5CD000869F56 /* GiftCardPurchasedSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardPurchasedSceneInteractor.swift; sourceTree = "<group>"; };
+		F1E22B3427AC5CEB00869F56 /* GiftCardPurchasedProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardPurchasedProtocols.swift; sourceTree = "<group>"; };
+		F1E22B3627AC5E7E00869F56 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		F1E22B3827AC62F900869F56 /* GiftCardPurchasedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardPurchasedCell.swift; sourceTree = "<group>"; };
+		F1E22B3B27AC6C4E00869F56 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		F1E22B3E27AC6F5800869F56 /* GiftCardCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCartVC.swift; sourceTree = "<group>"; };
+		F1E22B4027AC6FC200869F56 /* GiftCardCartSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCartSceneConfigurator.swift; sourceTree = "<group>"; };
+		F1E22B4227AC708900869F56 /* GiftCardCartSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCartSceneRouter.swift; sourceTree = "<group>"; };
+		F1E22B4427AC709A00869F56 /* GiftCardCartProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCartProtocols.swift; sourceTree = "<group>"; };
+		F1E22B4627AC729600869F56 /* GiftCardCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCartCell.swift; sourceTree = "<group>"; };
+		F1F92B6F27AB7DDF000E6329 /* Gift Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gift Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F92B7227AB7DDF000E6329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1F92B7427AB7DDF000E6329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1F92B7B27AB7DE1000E6329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1F92B7E27AB7DE1000E6329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1F92B8027AB7DE1000E6329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F92B8B27AB8029000E6329 /* GiftCardListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardListVC.swift; sourceTree = "<group>"; };
+		F1F92B8D27AB8050000E6329 /* GiftCardSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardSceneConfigurator.swift; sourceTree = "<group>"; };
+		F1F92B8F27AB807E000E6329 /* GiftCardScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardScenePresenter.swift; sourceTree = "<group>"; };
+		F1F92B9127AB808F000E6329 /* GiftCardSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardSceneInteractor.swift; sourceTree = "<group>"; };
+		F1F92B9327AB80A0000E6329 /* GiftCardSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardSceneRouter.swift; sourceTree = "<group>"; };
+		F1F92B9827AB80CF000E6329 /* GiftCardListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardListProtocols.swift; sourceTree = "<group>"; };
+		F1F92B9D27AB88F8000E6329 /* GiftCardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12EA2C627AFA3FF00F29A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F92B6C27AB7DDF000E6329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EEDD630A6E75447187761A /* Pods_Gift_Card.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7060684ED291551F45302C92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0BF6F478C57B7B2D30C328 /* Pods_Gift_Card.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0029B74B22BD5105C3D2D28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9053101EF851ECF44AB39DF /* Pods-Gift Card.debug.xcconfig */,
+				E2A3443B158FDB72AD686118 /* Pods-Gift Card.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F12EA2CA27AFA3FF00F29A30 /* Gift CardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F12EA2CB27AFA3FF00F29A30 /* GiftCardTests.swift */,
+			);
+			path = "Gift CardTests";
+			sourceTree = "<group>";
+		};
+		F18488FB27AEFCEF00CE555B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F18488FC27AEFCFC00CE555B /* BaseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F1E22B1927AC059E00869F56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F1F92B9D27AB88F8000E6329 /* GiftCardListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F1E22B1C27AC093200869F56 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B1D27AC093E00869F56 /* ApiProtocol.swift */,
+				F1E22B1F27AC093E00869F56 /* ApiRepo.swift */,
+				F1E22B2027AC093E00869F56 /* ApiRequestType.swift */,
+				F1E22B1E27AC093E00869F56 /* ApiService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F1E22B2527AC0BC900869F56 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B2627AC0BE600869F56 /* UIImageView+Extensions.swift */,
+				F1E22B2827AC0C3A00869F56 /* UIViewController+Extensions.swift */,
+				F1E22B3627AC5E7E00869F56 /* Int+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1E22B2D27AC5C5B00869F56 /* GiftCardPurchased */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B3A27AC62FE00869F56 /* Cell */,
+				F1E22B3427AC5CEB00869F56 /* GiftCardPurchasedProtocols.swift */,
+				F1E22B3027AC5CBC00869F56 /* GiftCardPurchasedSceneConfigurator.swift */,
+				F1E22B3227AC5CD000869F56 /* GiftCardPurchasedSceneInteractor.swift */,
+				F1E22B2E27AC5CA200869F56 /* GiftCardPurchasedVC.swift */,
+			);
+			path = GiftCardPurchased;
+			sourceTree = "<group>";
+		};
+		F1E22B3A27AC62FE00869F56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B3827AC62F900869F56 /* GiftCardPurchasedCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F1E22B3D27AC6F1600869F56 /* GiftCardCart */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B4827AC729A00869F56 /* Cell */,
+				F1E22B4427AC709A00869F56 /* GiftCardCartProtocols.swift */,
+				F1E22B4027AC6FC200869F56 /* GiftCardCartSceneConfigurator.swift */,
+				F1E22B4227AC708900869F56 /* GiftCardCartSceneRouter.swift */,
+				F1E22B3E27AC6F5800869F56 /* GiftCardCartVC.swift */,
+			);
+			path = GiftCardCart;
+			sourceTree = "<group>";
+		};
+		F1E22B4827AC729A00869F56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B4627AC729600869F56 /* GiftCardCartCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F1F92B6627AB7DDF000E6329 = {
+			isa = PBXGroup;
+			children = (
+				F1F92B7127AB7DDF000E6329 /* Gift Card */,
+				F12EA2CA27AFA3FF00F29A30 /* Gift CardTests */,
+				F1F92B7027AB7DDF000E6329 /* Products */,
+				C0029B74B22BD5105C3D2D28 /* Pods */,
+				7060684ED291551F45302C92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F92B7027AB7DDF000E6329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F92B6F27AB7DDF000E6329 /* Gift Card.app */,
+				F12EA2C927AFA3FF00F29A30 /* Gift CardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F92B7127AB7DDF000E6329 /* Gift Card */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B2527AC0BC900869F56 /* Extensions */,
+				F1E22B1C27AC093200869F56 /* Network */,
+				F1F92B9A27AB818F000E6329 /* Shared */,
+				F1F92B8827AB7FF3000E6329 /* Modules */,
+				F1F92B8727AB7E56000E6329 /* Others */,
+			);
+			path = "Gift Card";
+			sourceTree = "<group>";
+		};
+		F1F92B8727AB7E56000E6329 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F1F92B7B27AB7DE1000E6329 /* Assets.xcassets */,
+				F1F92B8027AB7DE1000E6329 /* Info.plist */,
+				F1F92B7D27AB7DE1000E6329 /* LaunchScreen.storyboard */,
+				F1F92B7227AB7DDF000E6329 /* AppDelegate.swift */,
+				F1F92B7427AB7DDF000E6329 /* SceneDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F1F92B8827AB7FF3000E6329 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F18488FB27AEFCEF00CE555B /* Base */,
+				F1F92B8927AB8003000E6329 /* GiftCardList */,
+				F1F92B8A27AB800F000E6329 /* GiftCardDetails */,
+				F1E22B2D27AC5C5B00869F56 /* GiftCardPurchased */,
+				F1E22B3D27AC6F1600869F56 /* GiftCardCart */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F1F92B8927AB8003000E6329 /* GiftCardList */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B1927AC059E00869F56 /* Cell */,
+				F1F92B9827AB80CF000E6329 /* GiftCardListProtocols.swift */,
+				F1F92B8D27AB8050000E6329 /* GiftCardSceneConfigurator.swift */,
+				F1F92B9127AB808F000E6329 /* GiftCardSceneInteractor.swift */,
+				F1F92B8F27AB807E000E6329 /* GiftCardScenePresenter.swift */,
+				F1F92B9327AB80A0000E6329 /* GiftCardSceneRouter.swift */,
+				F1F92B8B27AB8029000E6329 /* GiftCardListVC.swift */,
+			);
+			path = GiftCardList;
+			sourceTree = "<group>";
+		};
+		F1F92B8A27AB800F000E6329 /* GiftCardDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B1527ABD34300869F56 /* GiftCardDetailProtocols.swift */,
+				F1E22B0D27ABD2C900869F56 /* GiftCardDetailsSceneConfigurator.swift */,
+				F1E22B0F27ABD30F00869F56 /* GiftCardDetailsSceneInteractor.swift */,
+				F1E22B1327ABD32E00869F56 /* GiftCardDetailsSceneRouter.swift */,
+				F1E22B0B27ABD2B100869F56 /* GiftCardDetailsVC.swift */,
+			);
+			path = GiftCardDetails;
+			sourceTree = "<group>";
+		};
+		F1F92B9A27AB818F000E6329 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F1E22B3B27AC6C4E00869F56 /* CartManager.swift */,
+				F18488F927AEFA2700CE555B /* Constants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12EA2C827AFA3FF00F29A30 /* Gift CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12EA2D127AFA3FF00F29A30 /* Build configuration list for PBXNativeTarget "Gift CardTests" */;
+			buildPhases = (
+				F12EA2C527AFA3FF00F29A30 /* Sources */,
+				F12EA2C627AFA3FF00F29A30 /* Frameworks */,
+				F12EA2C727AFA3FF00F29A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12EA2CE27AFA3FF00F29A30 /* PBXTargetDependency */,
+			);
+			name = "Gift CardTests";
+			productName = "Gift CardTests";
+			productReference = F12EA2C927AFA3FF00F29A30 /* Gift CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1F92B6E27AB7DDF000E6329 /* Gift Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F92B8327AB7DE1000E6329 /* Build configuration list for PBXNativeTarget "Gift Card" */;
+			buildPhases = (
+				C552C5C7B55CD020961DE3B2 /* [CP] Check Pods Manifest.lock */,
+				F1F92B6B27AB7DDF000E6329 /* Sources */,
+				F1F92B6C27AB7DDF000E6329 /* Frameworks */,
+				F1F92B6D27AB7DDF000E6329 /* Resources */,
+				CEE7C929CEE1E425AACCF1A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gift Card";
+			productName = "Gift Card";
+			productReference = F1F92B6F27AB7DDF000E6329 /* Gift Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F92B6727AB7DDF000E6329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F12EA2C827AFA3FF00F29A30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F1F92B6E27AB7DDF000E6329;
+					};
+					F1F92B6E27AB7DDF000E6329 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F1F92B6A27AB7DDF000E6329 /* Build configuration list for PBXProject "Gift Card" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F92B6627AB7DDF000E6329;
+			productRefGroup = F1F92B7027AB7DDF000E6329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F92B6E27AB7DDF000E6329 /* Gift Card */,
+				F12EA2C827AFA3FF00F29A30 /* Gift CardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12EA2C727AFA3FF00F29A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F92B6D27AB7DDF000E6329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F92B7F27AB7DE1000E6329 /* LaunchScreen.storyboard in Resources */,
+				F1F92B7C27AB7DE1000E6329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C552C5C7B55CD020961DE3B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gift Card-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE7C929CEE1E425AACCF1A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gift Card/Pods-Gift Card-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gift Card/Pods-Gift Card-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gift Card/Pods-Gift Card-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12EA2C527AFA3FF00F29A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12EA2CC27AFA3FF00F29A30 /* GiftCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F92B6B27AB7DDF000E6329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E22B2927AC0C3A00869F56 /* UIViewController+Extensions.swift in Sources */,
+				F18488FD27AEFCFC00CE555B /* BaseVC.swift in Sources */,
+				F1E22B0E27ABD2C900869F56 /* GiftCardDetailsSceneConfigurator.swift in Sources */,
+				F1E22B3F27AC6F5800869F56 /* GiftCardCartVC.swift in Sources */,
+				F1E22B4527AC709A00869F56 /* GiftCardCartProtocols.swift in Sources */,
+				F1F92B9927AB80CF000E6329 /* GiftCardListProtocols.swift in Sources */,
+				F1E22B2727AC0BE600869F56 /* UIImageView+Extensions.swift in Sources */,
+				F1F92B8C27AB8029000E6329 /* GiftCardListVC.swift in Sources */,
+				F1E22B2127AC093E00869F56 /* ApiProtocol.swift in Sources */,
+				F1E22B4327AC708900869F56 /* GiftCardCartSceneRouter.swift in Sources */,
+				F1E22B1627ABD34300869F56 /* GiftCardDetailProtocols.swift in Sources */,
+				F1E22B3527AC5CEB00869F56 /* GiftCardPurchasedProtocols.swift in Sources */,
+				F1E22B2F27AC5CA200869F56 /* GiftCardPurchasedVC.swift in Sources */,
+				F1E22B3327AC5CD000869F56 /* GiftCardPurchasedSceneInteractor.swift in Sources */,
+				F1F92B7327AB7DDF000E6329 /* AppDelegate.swift in Sources */,
+				F1F92B7527AB7DDF000E6329 /* SceneDelegate.swift in Sources */,
+				F1E22B2327AC093E00869F56 /* ApiRepo.swift in Sources */,
+				F1F92B9227AB808F000E6329 /* GiftCardSceneInteractor.swift in Sources */,
+				F1E22B2427AC093E00869F56 /* ApiRequestType.swift in Sources */,
+				F1E22B0C27ABD2B100869F56 /* GiftCardDetailsVC.swift in Sources */,
+				F1F92B8E27AB8050000E6329 /* GiftCardSceneConfigurator.swift in Sources */,
+				F1E22B1427ABD32E00869F56 /* GiftCardDetailsSceneRouter.swift in Sources */,
+				F1F92B9027AB807E000E6329 /* GiftCardScenePresenter.swift in Sources */,
+				F1E22B4127AC6FC200869F56 /* GiftCardCartSceneConfigurator.swift in Sources */,
+				F18488FA27AEFA2700CE555B /* Constants.swift in Sources */,
+				F1F92B9427AB80A0000E6329 /* GiftCardSceneRouter.swift in Sources */,
+				F1E22B3127AC5CBC00869F56 /* GiftCardPurchasedSceneConfigurator.swift in Sources */,
+				F1E22B2227AC093E00869F56 /* ApiService.swift in Sources */,
+				F1F92B9E27AB88F8000E6329 /* GiftCardListCell.swift in Sources */,
+				F1E22B4727AC729600869F56 /* GiftCardCartCell.swift in Sources */,
+				F1E22B3C27AC6C4E00869F56 /* CartManager.swift in Sources */,
+				F1E22B3727AC5E7E00869F56 /* Int+Extensions.swift in Sources */,
+				F1E22B1027ABD30F00869F56 /* GiftCardDetailsSceneInteractor.swift in Sources */,
+				F1E22B3927AC62F900869F56 /* GiftCardPurchasedCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F12EA2CE27AFA3FF00F29A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F92B6E27AB7DDF000E6329 /* Gift Card */;
+			targetProxy = F12EA2CD27AFA3FF00F29A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1F92B7D27AB7DE1000E6329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F92B7E27AB7DE1000E6329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12EA2CF27AFA3FF00F29A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gift.card.Gift-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift Card.app/Gift Card";
+			};
+			name = Debug;
+		};
+		F12EA2D027AFA3FF00F29A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gift.card.Gift-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift Card.app/Gift Card";
+			};
+			name = Release;
+		};
+		F1F92B8127AB7DE1000E6329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1F92B8227AB7DE1000E6329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F92B8427AB7DE1000E6329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9053101EF851ECF44AB39DF /* Pods-Gift Card.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gift Card/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gift.card.Gift-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1F92B8527AB7DE1000E6329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A3443B158FDB72AD686118 /* Pods-Gift Card.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gift Card/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gift.card.Gift-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12EA2D127AFA3FF00F29A30 /* Build configuration list for PBXNativeTarget "Gift CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12EA2CF27AFA3FF00F29A30 /* Debug */,
+				F12EA2D027AFA3FF00F29A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F92B6A27AB7DDF000E6329 /* Build configuration list for PBXProject "Gift Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F92B8127AB7DE1000E6329 /* Debug */,
+				F1F92B8227AB7DE1000E6329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F92B8327AB7DE1000E6329 /* Build configuration list for PBXNativeTarget "Gift Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F92B8427AB7DE1000E6329 /* Debug */,
+				F1F92B8527AB7DE1000E6329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F92B6727AB7DDF000E6329 /* Project object */;
+}
